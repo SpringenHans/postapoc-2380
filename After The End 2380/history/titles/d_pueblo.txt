@@ -1,4 +1,0 @@
-2665.1.1 = {
-	holder=1876016
-	#historical_nomad = yes
-}

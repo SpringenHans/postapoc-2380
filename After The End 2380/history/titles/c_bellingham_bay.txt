@@ -1,4 +1,0 @@
-2613.10.17 = {
-	holder = 1886010
-	liege = d_vancouver
-}

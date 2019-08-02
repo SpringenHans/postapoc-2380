@@ -1,4 +1,0 @@
-2621.7.7 = {
-	holder = 1933031
-	liege = d_transallegheny
-}

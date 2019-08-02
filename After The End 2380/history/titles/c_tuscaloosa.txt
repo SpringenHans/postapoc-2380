@@ -1,4 +1,0 @@
-2622.7.12 = {
-	holder = 3000061
-	liege = d_black_belt
-}

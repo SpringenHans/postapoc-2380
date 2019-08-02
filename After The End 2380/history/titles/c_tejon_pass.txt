@@ -1,4 +1,0 @@
-2654.1.1 = {
-	holder = 1910190
-	liege = k_socal
-}

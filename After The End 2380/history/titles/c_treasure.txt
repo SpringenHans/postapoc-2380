@@ -1,5 +1,0 @@
-2660.10.28 = {
-	holder=1667014
-	liege=d_custer
-	historical_nomad = yes
-}

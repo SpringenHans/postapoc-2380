@@ -1,0 +1,9 @@
+2379.1.26 = {
+	holder=3861018 # Duke Dunwoody
+}
+2600.1.1 = {
+	liege = e_dixie #d_tuskegee
+}
+2648.8.31 = {
+	holder = 3000076
+}

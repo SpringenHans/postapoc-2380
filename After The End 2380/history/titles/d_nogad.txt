@@ -1,0 +1,8 @@
+2336.4.1 = {
+	law = succ_tanistry
+	liege="k_new_england"
+	holder=3620016
+}
+2628.1.1 = {
+	holder = 1620001
+}

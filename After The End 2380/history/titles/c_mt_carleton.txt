@@ -1,0 +1,9 @@
+2300.1.1 = { 
+	liege = "d_miramichi"
+}
+2380.1.1 = {
+	holder = 3899000
+}
+2657.9.7 = {
+	holder= 1899006 # Lorcan O'Tuairisc
+}

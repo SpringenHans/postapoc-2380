@@ -1,0 +1,17 @@
+2300.1.1 = {
+	liege = "d_penobscot"
+	law = succ_tanistry
+}
+
+2376.1.1 = {
+	holder = 3620000
+}
+
+2600.1.1 = {
+	liege = "d_newopies"
+}
+
+2624.1.1 = {
+	holder = 1620004
+	law = succ_tanistry
+}

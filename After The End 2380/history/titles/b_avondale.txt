@@ -1,0 +1,4 @@
+2380.1.1 = {
+	holding_dynasty = 1789000
+	holder = 666103 # Stanislaus Avondale
+}

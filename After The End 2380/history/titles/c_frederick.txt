@@ -1,0 +1,7 @@
+2344.10.12 = {
+	liege = "d_capital"
+	holder = 3789007
+}
+2660.1.1 = { # Franklin Ironwrit
+	holder = 1789009 # Babbs Zappa
+}

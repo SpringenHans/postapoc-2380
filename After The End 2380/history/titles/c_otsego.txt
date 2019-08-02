@@ -1,0 +1,9 @@
+2300.1.1 = {
+	liege = "d_catskill"
+}
+2370.1.1 = {
+	holder = 3788010
+}
+2650.1.1 = { # Rip Ranvincle
+	holder = 1788009
+}

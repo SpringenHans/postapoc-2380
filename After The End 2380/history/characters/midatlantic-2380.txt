@@ -1,0 +1,339 @@
+###ÄNSI
+666101 = {
+	name="Bannister"
+	dynasty=1781008 # Smithson
+	culture=beltway
+	religion=americanist
+	martial = 8
+	diplomacy = 7
+	intrigue = 9
+	stewardship = 6
+	learning = 8
+	trait=brilliant_strategist
+	trait=genius
+	trait=ambitious
+	trait=zealous
+	trait=proud
+	trait=brave
+	trait=homosexual
+	father=3789001
+	mother=3789002
+	2311.7.7={birth=yes}
+	2327.1.1={effect={add_lover=3789007}}
+	2344.10.12 = {
+		add_trait=president
+		give_nickname=nick_lastname
+		create_bloodline = {
+			type = smithson
+			has_dlc = "Holy Fury"
+		}
+	}
+	2378.7.7 = {
+		death = {
+			death_reason = death_battle
+			killer = 1997005
+		}
+	}
+}
+
+3789000={
+	name="Matthew"
+	dynasty=2778000 # Mara
+	culture=delawarean
+	religion=americanist
+	martial=10 # Was a prominent military leader in the Deitsch war
+	diplomacy=3
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=detached_priest
+	trait=scarred_high
+	trait=cynical
+	trait=uncouth
+	trait=arbitrary
+	trait=hedonist
+	trait=infection # Old war wound
+	trait=aggressive_leader
+	2336.12.1={birth=yes}
+}
+3789001={ # Bannister Smithson's father
+	name="Vernon"
+	dynasty=1781008 #Smithson
+	culture=beltway
+	religion=americanist
+	trait=robust
+	trait=tough_soldier
+	trait=depressed
+	trait=zealous
+	2293.7.4={birth=yes}
+	2310.1.1={add_spouse=3789002}
+}
+3789002={ # Bannister Smithson's mother
+	name="Martha"
+	female=yes
+	culture=beltway
+	religion=americanist
+	trait=depressed
+	trait=groomed
+	trait=martial_cleric
+	2294.1.1={birth=yes}
+	2310.1.1={add_spouse=3789001}
+	2378.8.7={
+		death={death_reason = death_trait}
+	}
+}
+3789003={ # Bannister Smithson's brother
+	name="Barnaby"
+	dynasty=1781008 #Smithson
+	culture=beltway
+	religion=americanist
+	father=3789001
+	mother=3789002
+	trait=tough_soldier
+	trait=brave
+	trait=honest
+	trait=content
+	2315.2.1={birth=yes}
+	2378.7.7= {death = {death_reason = death_battle}}
+}
+
+3789004={
+	name="Respublia"
+	dynasty=1781008 #Smithson
+	culture=beltway
+	religion=americanist
+	father=3789003
+	trait=genius
+	trait=kind
+	trait=ill
+	trait=charismatic_negotiator
+	trait=just
+	female=yes
+	2346.5.22={birth=yes}
+	2368.2.22={death={death_reason=death_childbirth}}
+}
+3789005={ # Bannister's grand-nephew, the current Colonel of Columbia 
+	name="Filibuster"
+	dynasty=1781008 #Smithson
+	culture=beltway
+	religion=americanist
+	mother=3789004
+	martial=4
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait=chaste
+	trait=timid
+	trait=idolizer
+	trait=brooding
+	2368.2.22={
+		birth=yes
+		effect = { set_character_flag = is_filibuster }
+	}
+}
+
+3789006={ #Carroll Calvert
+	name="Carroll"
+	dynasty=1778000 #Calvert
+	culture=delawarean
+	martial=3
+	diplomacy=5
+	stewardship=7
+	intrigue=5
+	learning=6
+	religion=americanist
+	secret_religion=sedevacantist
+	trait=fortune_builder
+	trait=sympathy_christendom
+	trait=just
+	trait=proud
+	2353.6.8={birth=yes}
+	2378.7.7={effect={add_rival=3789007}}
+}
+
+3789007={ #Bannister's lover
+	name="Ulysses"
+	culture=beltway
+	religion=americanist
+	dynasty=2781000 #Lenore
+	trait=homosexual
+	trait=skilled_tactician
+	trait=scarred_mid
+	trait=strong
+	trait=duelist
+	trait=wroth
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=4
+	2311.10.31={birth=yes}
+	2327.1.1={effect={add_lover=666101}}
+	2378.7.7={
+		add_trait=depressed
+		add_trait=cynical
+		effect={add_rival=3789006}
+	}
+}
+
+3789008={
+	name="John Henry"
+	dynasty=1781015 #Eden
+	religion=americanist
+	culture=beltway
+	trait=mastermind_theologian
+	martial=8
+	diplomacy=6
+	stewardship=5
+	intrigue=8
+	learning=5
+	trait=deceitful
+	trait=zealous
+	trait=ambitious
+	trait=proud
+	2325.1.1={birth=yes}
+	2378.7.7={add_claim="d_capital"}
+}
+
+3789009={
+	name="Jefferson"
+	dynasty=2787001 # Perdue
+	culture=southron
+	religion=americanist
+	trait=grey_eminence
+	trait=gregarious
+	trait=charitable
+	trait=slothful
+	martial=3
+	diplomacy=11
+	stewardship=2
+	intrigue=5
+	learning=3
+	2353.6.11={birth=yes}
+}
+
+3789010={
+	name="Valerian"
+	dynasty=2787002 # Hawthorne
+	culture=southron
+	religion=americanist
+	trait=strategist
+	trait=skilled_tactician
+	trait=brave
+	trait=trusting
+	trait=organizer
+	2358.1.1={birth=yes}
+}
+
+3789011={
+	name="Nathaniel"
+	dynasty=1778006# Derren
+	martial=8
+	diplomacy=9
+	stewardship=2
+	intrigue=5
+	learning=7
+	trait=content
+	culture=delawarean
+	religion=americanist
+	2349.9.12={birth=yes}
+}
+
+3789012={
+	name="Japhet"
+	dynasty=2777000 # Leeds
+	culture=gothamite
+	religion=occultist
+	martial=6
+	diplomacy=0
+	stewardship=4
+	intrigue=9
+	learning=4
+	trait=flamboyant_schemer
+	trait=envious
+	trait=lustful
+	trait=cruel
+	trait=possessed
+	trait=impaler
+	trait=ugly
+	trait=hunchback
+	trait=clubfooted
+	trait=lore_pact
+	father=3789013
+	mother=3789014
+	2356.6.6 = {
+		birth=yes
+		give_nickname=nick_the_devil
+	}
+}
+
+3789013={
+	name="Daniel"
+	dynasty=2777000
+	culture=gothamite
+	religion=americanist
+	martial=6
+	diplomacy=7
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=scholarly_theologian
+	trait=erudite
+	trait=stubborn
+	trait=ambitious
+	trait=cynical
+	2319.10.31 = {birth=yes}
+	2339.1.1 = {add_spouse=2210013}
+	2379.6.6 = {death={death_reason=death_murder_unknown}}
+}
+
+3789014={
+	name="Jane"
+	female=yes
+	culture=yankee
+	religion=occultist
+	martial=6
+	diplomacy=6
+	stewardship=6
+	intrigue=8
+	learning=7
+	trait=possessed
+	trait=zealous
+	trait=lore_pact
+	2321.1.1 = {birth=yes}
+	2339.1.1 = {add_spouse=2210011}
+	2356.6.6 = {death={death_reason=death_childbirth}}
+}
+
+#12 older siblings for the Jersey Devil
+
+3789027 = {
+	name="Grant"
+	dynasty=1778005 # Midfield
+	martial=8
+	diplomacy=7
+	stewardship=5
+	intrigue=5
+	learning=7
+	culture=delawarean
+	religion=americanist
+	2349.6.4={birth=yes}
+}
+
+3789028 = {
+	name="Frederick"
+	dynasty=1778007
+	culture=tuskegean
+	religion=americanist
+	2318.2.1={birth=yes}
+	martial=5
+	diplomacy=8
+	stewardship=7
+	intrigue=5
+	learning=7
+	trait=shrewd
+	trait=brave
+	trait=grey_eminence
+}
+

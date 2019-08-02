@@ -1,0 +1,9 @@
+2375.5.14 = {
+	holder=3861019 # Jed Hogg
+}
+2600.1.1 = {
+	liege = "e_dixie"
+}
+2665.1.1={
+	holder=1861066 # Roscoe Phenix
+}

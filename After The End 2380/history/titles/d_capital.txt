@@ -1,0 +1,9 @@
+2344.10.12 = {
+	holder = 666101 # Bannister Smithson
+}
+2378.7.7 = {
+	holder = 3789005 # Filibuster Smithson
+}
+2660.1.1 = { # Franklin Ironwrit
+	holder = 1789001
+}

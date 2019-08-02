@@ -1,0 +1,8 @@
+2379.3.25 = {
+	holder = 5899002
+}
+2629.5.16 = {
+	holder = 1899032
+	liege = d_nova_scotia
+	law = succ_primogeniture
+}

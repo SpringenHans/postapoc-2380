@@ -1,0 +1,9 @@
+2300.1.1 = { 
+	liege = "d_miramichi"
+}
+2380.1.1 = {
+	holder = 3899000
+}
+2648.6.1 = {
+	holder= 1899004 # David O'Connor
+}

@@ -1,0 +1,457 @@
+###ÄNSI
+3861000 = { #Count of Mobile
+	name="Clement"
+	dynasty=1792019 #Duvol
+	culture=gulfard
+	religion=voodoo #occultist
+	martial=6
+	diplomacy=7
+	stewardship=3
+	intrigue=1
+	learning=7
+	trait=naive_appeaser
+	trait=kind
+	trait=sturdy
+	2330.1.1={birth=yes}
+}
+
+3861001 = {
+	name="Napoleon"
+	dynasty=1792019 #Duvol
+	father=3861000
+	culture=gulfard
+	religion=voodoo #occultist
+	martial=7
+	diplomacy=4
+	stewardship=5
+	intrigue=6
+	learning=4
+	trait=brilliant_strategist
+	trait=brave
+	trait=strong
+	trait=shrewd
+	trait=ambitious
+	2360.1.1={birth=yes}
+}
+
+3861002 = {
+	name="Lee"
+	dynasty=2017038 #Everett
+	culture=tuskegean
+	religion=evangelical
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=2
+	learning=6
+	trait=scholarly_theologian
+	trait=quick
+	trait=one_handed
+	trait=brave
+	trait=kind
+	2343.1.1={birth=yes}
+	2380.1.1={married=no}
+}
+
+3861003 = {
+	name="Clementine"
+	dynasty=2017038
+	father=3861002
+	culture=brown
+	religion=evangelical
+	female=yes
+	martial=2
+	diplomacy=3
+	stewardship=1
+	intrigue=2
+	learning=2
+	trait=quick
+	trait=brave
+	trait=willful
+	2371.11.1={
+		birth=yes
+		culture=tuskegean
+	}
+}
+
+3861004 = {
+	name="Hershel"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	martial=5
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
+	trait=martial_cleric
+	trait=zealous
+	trait=kind
+	trait=stubborn
+	2330.1.1={birth=yes}
+}
+
+3861005 = {
+	name="Lacey"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	female=yes
+	trait=detached_priest
+	trait=erudite
+	trait=charitable
+	2357.1.1={birth=yes}
+	2379.8.1={ 
+		death = {
+			death_reason=death_rabble
+		}
+	}
+}
+
+3861006 = {
+	name="Shawn"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	trait=charitable
+	trait=kind
+	trait=slothful
+	trait=rabies
+	2355.1.1={birth=yes}
+	2379.7.1={ 
+		death = {
+			death_reason=death_trait
+		}
+	}
+}
+
+3861007 = {
+	name="Maggie"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	female=yes
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=4
+	trait=cynical
+	trait=brave
+	trait=strong
+	trait=tough_soldier
+	2361.1.1={birth=yes}
+}
+
+3861008 = {
+	name="Arnold"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	trait=thrifty_clerk
+	trait=shy
+	trait=stubborn
+	trait=brave
+	2359.1.1={birth=yes}
+	2379.8.1={ 
+		death = {
+			death_reason=death_rabble
+		}
+	}
+}
+
+3861009 = {
+	name="Bill"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=3
+	trait=cynical
+	trait=arbitrary
+	trait=lustful
+	trait=skilled_tactician
+	2362.5.1={birth=yes}
+}
+
+3861010 = {
+	name="Sue"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	female=yes
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=4
+	trait=timid
+	trait=affectionate
+	trait=idolizer
+	trait=twin
+	2366.1.1={birth=yes}
+}
+
+3861017 = {
+	name="Rachel"
+	dynasty=2783861 #Greene
+	culture=dixie
+	religion=charismatic
+	father=3861004
+	female=yes
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=4
+	trait=curious
+	trait=conscientious
+	trait=brooding
+	trait=twin
+	2366.1.1={birth=yes}
+}
+
+3861011 = {
+	name="Elijah"
+	dynasty=2785000 #White
+	culture=tuskegean
+	religion=postadventist
+	martial=7
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=8
+	trait=scholarly_theologian
+	trait=mystic
+	trait=zealous
+	trait=stubborn
+	trait=temperate
+	trait=strong
+	2344.1.1={birth=yes}
+}
+
+3861012 = {
+	name="Martin"
+	dynasty=1960023 #Luther
+	father=3861014
+	culture=tuskegean
+	religion=evangelical
+	martial=0
+	diplomacy=8
+	stewardship=6
+	intrigue=4
+	learning=7
+	trait=grey_eminence
+	trait=kind
+	trait=patient
+	trait=diligent
+	trait=just
+	trait=i
+	2335.1.15={birth=yes}
+	2361.1.1={
+		name="Malcolm"
+		religion=postadventist
+		add_claim=d_peachtree
+		add_claim=c_atlanta
+		add_claim=c_chattahoochee
+		add_claim=c_athens
+	}
+}
+
+3861013 = {
+	name="Booker"
+	dynasty=1960023 #Luther
+	father=3861014
+	culture=tuskegean
+	religion=evangelical
+	martial=5
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=6
+	trait=scholarly_theologian
+	trait=humble
+	trait=zealous
+	trait=content
+	trait=patient
+	trait=honest
+	2336.11.1={birth=yes}
+}
+
+3861014 = {
+	name="Martin"
+	dynasty=1960023 #Luther
+	culture=tuskegean
+	religion=evangelical
+	trait=mastermind_theologian
+	martial=0
+	diplomacy=10
+	stewardship=7
+	intrigue=4
+	learning=10
+	trait=genius
+	trait=kind
+	trait=physician
+	trait=theologian
+	trait=diligent
+	trait=just
+	trait=gregarious
+	2311.1.15={birth=yes}
+	2353.8.28={
+		create_bloodline = {
+			type = mlk
+			has_dlc = "Holy Fury"
+		}
+	}
+	2358.4.4={
+		death=yes
+		death_reason=death_murder
+	}
+}
+
+3861015 = {
+	name=Hothlepoya
+	dynasty=1491300 #Menawa
+	culture=muscogee
+	religion=postadventist
+	trait=skilled_tactician
+	trait=brave
+	trait=wroth
+	trait=ambitious
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=7
+	learning=5
+	2320.1.1={birth=yes}
+}
+
+3861016 = {
+	name="Woody"
+	dynasty=1786029 #Oakheart
+	culture=tuskegean
+	religion=postadventist
+	trait=thrifty_clerk
+	trait=scholar
+	trait=zealous
+	trait=shrewd
+	martial=5
+	diplomacy=6
+	stewardship=7
+	intrigue=4
+	learning=6
+	2335.1.1={birth=yes}
+}
+
+3861018 = {
+	name="Duke"
+	dynasty=1787013 # Dunwoody
+	father=3861023
+	culture=dixie
+	religion=revelationist
+	martial=6
+	diplomacy=5
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait=lustful
+	trait=kind
+	trait=brave
+	2355.1.26={birth=yes}
+}
+
+3861019 = {
+	name="Jed"
+	dynasty=1787081 #Hogg
+	culture=dixie
+	religion=charismatic
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=gluttonous
+	trait=greedy
+	trait=is_fat
+	trait=arbitrary
+	2330.1.4={birth=yes}
+}
+3861020 = {
+	name="Ponce"
+	dynasty=1792007 # Jubillard
+	martial=5
+	diplomacy=3
+	intrigue=5
+	stewardship=5
+	learning=6
+	culture=gulfard
+	religion=revelationist
+	trait=misguided_warrior
+	trait=paranoid
+	trait=zealous
+	2347.6.16={birth=yes}
+}
+3861021 = {
+	name="Jemmy"
+	dynasty=1826025 #Jebali
+	culture=gullah
+	religion=charismatic
+	martial=6
+	diplomacy=5
+	stewardship=6
+	intrigue=7
+	learning=5
+	trait=quick
+	trait=elusive_shadow
+	trait=deceitful
+	trait=paranoid
+	2344.11.30={birth=yes}
+}
+3861022={
+	name="Boblee"
+	dynasty=1787013 # Dunwoody
+	father=3861023
+	martial=4
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	culture=dixie
+	religion=revelationist
+	trait=thrifty_clerk
+	trait=content
+	trait=temperate
+	trait=trusting
+	trait=sympathy_christendom
+	2360.4.8={birth=yes}
+}
+3861023={
+	name="Jesse"
+	dynasty=1787013
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	culture=dixie
+	religion=revelationist
+	trait=zealous
+	trait=scholarly_theologian
+	2320.5.11={birth=yes}
+	2379.1.26={death=yes}
+}
+3861024={
+	name="Jim"
+	dynasty=2010014
+	culture=dixie
+	religion=evangelical
+}

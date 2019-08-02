@@ -1,0 +1,277 @@
+###ÄNSI
+3867000={
+	name="Macdonald"
+	dynasty=1867015 #Laurier
+	culture=ontarian
+	religion=high_church
+	martial=4
+	diplomacy=7
+	stewardship=6
+	intrigue=7
+	learning=5
+	trait=shrewd
+	trait=gregarious
+	trait=flamboyant_schemer
+	trait=trusting
+	trait=deceitful
+	2339.1.11={birth=yes}
+	2358.1.1={
+		add_spouse=3867001
+		effect={add_lover=3867001}
+	}
+}
+3867001={
+	name="Victoria"
+	female=yes
+	culture=ontarian
+	religion=high_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=8
+	learning=5
+	trait=elusive_shadow
+	trait=paranoid
+	trait=zealous
+	trait=diligent
+	trait=proud
+	2340.5.24={birth=yes}
+	2358.1.1={
+		add_spouse=3867000
+		effect={add_lover=3867000}
+	}
+}
+3867001={
+	name="Hugh"
+	dynasty=1867015 #Laurier
+	culture=ontarian
+	religion=high_church
+	father=3867000
+	mother=3867001
+	martial=7
+	diplomacy=5
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=misguided_warrior
+	trait=wroth
+	trait=brave
+	trait=honest
+	2359.3.13={birth=yes}
+}
+3867002={
+	name="Alice"
+	dynasty=1867015 #Laurier
+	female=yes
+	culture=ontarian
+	religion=high_church
+	father=3867000
+	mother=3867001
+	martial=7
+	diplomacy=5
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=misguided_warrior
+	trait=wroth
+	trait=brave
+	trait=honest
+	2360.1.4={birth=yes}
+	2377.1.1={add_spouse=3788015}
+	2378.1.1={effect={add_friend=3867002}}
+}
+3867003={
+	name="Westerfield"
+	dynasty=1867018
+	martial=6
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	learning=5
+	culture=ontarian
+	religion=high_church
+	trait=tough_soldier
+	trait=ambitious
+	trait=trusting
+	2342.1.1={birth=yes}
+	2378.1.1={effect={add_friend=3867002}}
+}
+3867004={
+	name="Rubrum"
+	dynasty=1867032
+	culture=ontarian
+	religion=united_church
+	martial=8
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	learning=5
+	trait=zealous
+	trait=intricate_webweaver
+	trait=arbitrary
+	trait=shy
+	2363.3.3={birth=yes}
+	2380.1.1={give_nickname=nick_the_young}
+}
+3867005={
+	name="Camille"
+	dynasty=1867031
+	culture=ontarian
+	religion=united_church
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	trait=homosexual
+	trait=cynical
+	trait=envious
+	trait=musician
+	2357.10.27={birth=yes}
+}
+3867006={
+	name=Stacey
+	dynasty=1867030
+	female=yes
+	culture=ontarian
+	religion=united_church
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=7
+	learning=5
+	trait=diligent
+	trait=musician
+	trait=gregarious
+	trait=wroth
+	trait=temperate
+	2357.4.5={birth=yes}
+}
+3867007={
+	name="Obadele"
+	dynasty=1867003
+	culture=west_indian
+	religion=united_church
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait=grey_eminence
+	trait=just
+	trait=gregarious
+	trait=diligent
+	trait=brave
+	2331.3.6={birth=yes
+		culture=ontarian}
+	2350.8.13={add_spouse=3867008}
+}
+3867008={
+	name="Portia"
+	female=yes
+	culture=west_indian
+	religion=united_church
+	martial=1
+	diplomacy=3
+	stewardship=8
+	intrigue=5
+	learning=3
+	trait=thrifty_clerk
+	trait=chaste
+	trait=gregarious
+	2332.1.1={birth=yes
+		culture=ontarian}
+	2350.8.13={add_spouse=3867007}
+}
+3867009={
+	name="Judah"
+	dynasty=1867003
+	culture=west_indian
+	religion=united_church
+	martial=3
+	diplomacy=7
+	stewardship=3
+	intrigue=4
+	learning=5
+	trait=skilled_tactician
+	trait=temperate
+	trait=zealous
+	trait=deceitful
+	father=3867007
+	mother=3867008
+	2351.10.8={birth=yes
+		culture=ontarian}
+}
+
+3867010={
+	name="Cornwall"
+	dynasty=1867003
+	dna="illgekpekcn"
+	culture=west_indian
+	religion=united_church
+	martial=8
+	diplomacy=2
+	stewardship=7
+	intrigue=6
+	learning=4
+	trait=flamboyant_schemer
+	trait=zealous
+	trait=arbitrary
+	trait=cruel
+	father=3867007
+	mother=3867008
+	2354.4.2={birth=yes
+		culture=ontarian}
+}
+
+3867011={
+	name="Lloyd"
+	dynasty=1867003
+	culture=west_indian
+	religion=high_church
+	martial=4
+	diplomacy=2
+	stewardship=3
+	intrigue=5
+	learning=3
+	trait=tough_soldier
+	trait=duelist
+	trait=kind
+	trait=charitable
+	trait=just
+	trait=proud
+	father=3867007
+	mother=3867008
+	2360.8.16={birth=yes
+		culture=ontarian}
+}
+
+3867012={
+	name="James"
+	culture=ontarian
+	religion=high_church
+	dynasty=1867010
+	martial=4
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=3
+	trait=underhanded_rogue
+	trait=craven
+	trait=proud
+	trait=temperate
+	trait=cynical
+	2346.10.1={birth=yes}
+}
+
+3867013={
+	name="Koch"
+	dynasty=2779001
+	culture=deitsch
+	religion=anabaptist
+	dynasty=2779001
+	trait=gluttonous
+	trait=zealous
+	trait=indulgent_wastrel
+	2330.1.1={birth=yes}
+}

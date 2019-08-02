@@ -1,0 +1,46 @@
+3933000 = {
+	name="Clint"
+	dynasty=2783000 # Mackelroy
+	culture=appalachian
+	religion=revelationist
+	trait=brave
+	trait=gregarious
+	trait=kind
+	2316.8.10={birth=yes}
+}
+3933001 = {
+	name="Justin"
+	dynasty=2783000 # Mackelroy
+	culture=appalachian
+	religion=revelationist
+	father=3933000
+	trait=stutter
+	trait=kind
+	trait=charitable
+	trait=sturdy
+	2341.11.8={birth=yes}
+}
+3933002 = {
+	name="Travis"
+	dynasty=2783000 # Mackelroy
+	culture=appalachian
+	religion=revelationist
+	father=3933000
+	trait=architect
+	trait=gregarious
+	trait=kind
+	2344.11.8={birth=yes}
+}
+3933003 = {
+	name="Griffin"
+	dynasty=2783000 # Mackelroy
+	culture=appalachian
+	religion=revelationist
+	father=3933000
+	trait=gamer
+	trait=shy
+	trait=diligent
+	trait=kind
+	trait=uncouth
+	2348.4.17={birth=yes}
+}

@@ -1,0 +1,8 @@
+2380.1.1 = {
+	liege = k_hudsonia
+	holder=3788016
+}
+2660.1.1 = {
+	holder=1788016 # Geoffrey Allen
+	liege = k_hudsonia
+}

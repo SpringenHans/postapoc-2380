@@ -1,0 +1,10 @@
+2380.1.1 = {
+	liege = "k_new_england"
+	holder = 3899000
+}
+2609.2.27 = {
+	liege = "k_maritimes"
+}
+2665.1.1 = {
+	holder = 1899002 # Sarah Birnberg
+}

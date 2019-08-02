@@ -1,0 +1,17 @@
+# c_ensenada
+
+# County Title
+title = c_ensenada
+
+# Settlements
+max_settlements = 4
+
+b_la_bufadora_BAJ = castle
+b_ensenada_BAJ = city
+b_santo_tomas_BAJ = temple
+
+# Misc
+culture = californio
+religion = sacred_heart
+terrain = mountain
+#History

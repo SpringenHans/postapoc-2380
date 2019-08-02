@@ -1,0 +1,10 @@
+2380.1.1 = {
+	holder = 3788007
+	law = true_cognatic_succession
+}
+2600.1.1 = {
+	liege = "d_new_york"
+}
+2660.1.1 = {
+	holder=1788012
+}

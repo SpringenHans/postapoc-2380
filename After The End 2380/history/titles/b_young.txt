@@ -1,0 +1,5 @@
+2380.1.1 = {
+	liege = "d_calumet"
+	holding_dynasty = 1842069
+	holder = 3967000 # Gresham Young
+}

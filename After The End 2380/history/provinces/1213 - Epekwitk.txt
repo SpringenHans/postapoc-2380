@@ -1,0 +1,13 @@
+# 1213 - Epekwitk
+
+# County Title
+title = c_epekwitk
+
+# Settlements
+max_settlements = 3
+b_charlottetown_PEI = tribal
+#b_kensington_PEI = city
+
+# Misc
+culture = maritimer
+religion = celtic_pagan

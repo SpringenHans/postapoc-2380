@@ -1,0 +1,10 @@
+2380.1.1={
+	liege = "d_new_york"
+	holder=3788005
+}
+2639.12.31={
+	liege = "d_connecticut"
+}
+2660.1.1={
+	holder=1788015 # Willem Stedvor
+}

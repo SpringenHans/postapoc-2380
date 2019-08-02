@@ -1,0 +1,10 @@
+2374.6.22 = {
+	holder=3763000
+	law=succ_absolute_cognatic
+}
+2599.5.30 = {
+	holder = 1763046
+}
+2678.3.21 = {
+	holder = 1763076
+}

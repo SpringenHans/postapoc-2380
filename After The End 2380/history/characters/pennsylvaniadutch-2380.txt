@@ -1,0 +1,75 @@
+1997005={
+	name="Samuel" # Samuel I
+	dynasty=1779005 # Stoltzfus
+	culture="deitsch"
+	religion="anabaptist"
+	2339.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+
+1997006={
+	name="Samuel" # Samuel II
+	dynasty=1779005 # Stoltzfus
+	culture="deitsch"
+	religion="anabaptist"
+	father=1997005
+	2356.1.1={birth=yes}
+	2405.1.1={death=yes}
+}
+
+1997007={
+	name="Elkanah" # Elkanah I
+	dynasty=1779005 # Stoltzfus
+	culture="deitsch"
+	religion="anabaptist"
+	father=1997006
+	2372.1.1={birth=yes}
+	2400.1.1={add_trait="scarred"}
+	2407.1.1={death=yes}
+}
+3997000={
+	name="Johannes"
+	dynasty=2779000 #Batenburg
+	culture="deitsch"
+	religion="batenburger"
+	trait=skilled_tactician
+	trait=arbitrary
+	trait=cruel
+	trait=hedonist
+	trait=holy_warrior
+	trait=wroth
+	trait=heresiarch
+	2344.5.5={birth=yes}
+}
+3997001={
+	name="Simon"
+	dynasty=1779006 #Lengacher
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=6
+	trait=tough_soldier
+	trait=scarred
+	trait=wroth
+	trait=cynical
+	culture="deitsch"
+	religion="batenburger"
+	2357.1.1={birth=yes}	
+}
+3997002={
+	name="Gideon"
+	dynasty=1786031 # Loyalsock
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	culture="deitsch"
+	religion="anabaptist"
+	trait=lustful
+	trait=charitable
+	trait=content
+	trait=underhanded_rogue
+	2352.12.6={birth=yes}
+}

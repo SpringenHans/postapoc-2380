@@ -1,0 +1,5 @@
+2380.1.1 = {
+	liege = "d_calumet"
+	holding_dynasty = 1789005
+	holder = 1967107 # Cyrus Boystown
+}

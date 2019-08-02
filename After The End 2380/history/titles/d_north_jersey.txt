@@ -1,0 +1,4 @@
+2380.1.1 = {
+	holder = 3788007
+	law = true_cognatic_succession
+}

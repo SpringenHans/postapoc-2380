@@ -1,0 +1,14 @@
+# 1044 - Pensacola
+
+# County Title
+title = c_pensacola
+
+# Settlements
+max_settlements = 4
+b_pensacola_FL = tribal
+b_navarre_FL = temple
+
+# Misc
+culture = gulfard
+religion = voodoo
+terrain = marsh

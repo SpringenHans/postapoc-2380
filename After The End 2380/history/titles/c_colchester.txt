@@ -1,0 +1,9 @@
+2365.1.1 = {
+	holder = 3899003
+	law = succ_tanistry
+}
+2627.2.1 = {
+	holder = 1899017
+	law = succ_tanistry
+	liege = k_maritimes
+}

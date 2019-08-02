@@ -1,0 +1,9 @@
+2380.1.1 = {
+	liege = d_green_mountains
+	holder = 3620022
+}
+2630.9.29 = {
+	holder = 1620033
+	law = succ_tanistry
+	liege = d_green_mountains
+}

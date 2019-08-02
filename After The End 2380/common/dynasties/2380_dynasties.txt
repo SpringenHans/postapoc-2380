@@ -1,0 +1,38 @@
+2775000 = { name="Linnet" culture=acadien }
+
+2777000 = { name="Leeds" culture=gothamite }
+
+2778000 = { name="Mara" culture=delawarean }
+2778001 = { name="Allan" culture=delawarean }
+2778002 = { name="Pitcher" culture=delawarean }
+
+2779000 = { name="Batenburg" culture=deitsch }
+2779001 = { name="Rinsfleesch" culture=deitsch }
+
+2781000 = { name="Lenore" culture=beltway }
+
+2783000 = { name="Mackelroy" culture=appalachian }
+
+2787000 = { name="Greene" culture=dixie }
+2787001 = { name="Perdue" culture=southron }
+2787002 = { name="Hathorne" culture=southron }
+
+2795000 = { name="Bertrand" culture=cajun }
+2795001 = { name="La Bouff" culture=cajun }
+
+2797000 = { name="Bailey" culture=grangelander 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	} }
+2797001 = { name="Dabney" culture=grangelander }
+
+2813000 = { name="Mac Uther" culture=maritimer }
+2813001 = { name="Embreis" culture=maritimer }

@@ -1,0 +1,8 @@
+2355.1.1 = {
+	liege = "d_capital"
+	holder = 3789008
+}
+2660.1.1 = { # Franklin Ironwrit
+	holder = 1789030 # Athena Angelos
+	liege = "d_capital"
+}

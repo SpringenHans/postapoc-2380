@@ -1,0 +1,9 @@
+2377.1.1 = {
+	liege="d_maine"
+	law=succ_tanistry
+	holder=3620012
+}
+2628.7.9 = {
+	holder = 1620030
+	law = succ_tanistry
+}

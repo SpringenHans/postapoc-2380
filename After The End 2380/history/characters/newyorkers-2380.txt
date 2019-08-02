@@ -1,0 +1,538 @@
+1788104={
+	name="Ellis" # Ellis I
+	dynasty=1776013 # Rodham
+	martial=10
+	diplomacy=8
+	intrigue=9
+	stewardship=9
+	learning=10
+	trait=ambitious
+	trait=quick
+	trait=brilliant_strategist
+	trait=patient
+	trait=strong
+	trait=just
+	trait=brave
+	trait=organizer
+	trait=inspiring_leader
+	culture=hudsonian
+	religion=sedevacantist
+	2360.5.12={birth=yes}
+	2378.1.1={
+		effect={add_friend=3788000}
+		add_trait=sympathy_oldworld
+		}
+	2379.1.1={add_spouse=3788001}
+	2380.7.4={
+		effect = {
+			if = {
+				limit = { ai = no }
+				long_character_event = { id = rodham.1 }
+			}	
+			if = {
+				limit = { ai = yes }
+				long_character_event = { id = rodham.1 days = 1}
+			}
+		}
+	}
+	2430.12.26={death=yes}
+}
+
+3788000={
+	name="Darius"
+	dynasty=1777000 #Wayne
+	culture=gothamite
+	religion=americanist
+	martial=4
+	diplomacy=6
+	intrigue=9
+	stewardship=6
+	learning=5
+	trait=patient
+	trait=quick
+	trait=ambitious
+	trait=intricate_webweaver
+	trait=sympathy_christendom
+	2339.5.1={birth=yes}
+	2378.1.1={effect={add_friend=1788104}}
+}
+3788001={
+	name="Regina"
+	dynasty=1777000
+	father=3788000
+	female=yes
+	culture=gothamite
+	religion=americanist
+	trait=quick
+	trait=temperate
+	trait=fair
+	trait=charitable
+	trait=midas_touched
+	trait=sympathy_christendom
+	2362.2.19={birth=yes}
+	2379.1.1={add_spouse=1788104}
+}
+3788002={
+	name="Carmine"
+	dynasty=1777006
+	culture=gothamite
+	religion=americanist
+	diplomacy=3
+	martial=6
+	stewardship=4
+	intrigue=6
+	learning=2
+	trait=elusive_shadow
+	trait=cruel
+	trait=deceitful
+	trait=impaler
+	trait=envious
+	2315.3.1={birth=yes}	
+}
+3788003={
+	name="Osvald"
+	dynasty=1777002
+	culture=gothamite
+	diplomacy=5
+	martial=2
+	stewardship=6
+	intrigue=6
+	learning=8
+	religion=americanist
+	trait=elusive_shadow
+	trait=erudite
+	trait=gluttonous
+	trait=is_fat
+	trait=greedy
+	trait=quick
+	trait=schemer
+	trait=dwarf
+	trait=ugly
+	2341.12.1={birth=yes}
+}
+3788004={
+	name="Edward"
+	dynasty=1777001
+	culture=gothamite
+	religion=americanist
+	diplomacy=8
+	martial=4
+	stewardship=4
+	intrigue=6
+	learning=6	
+	trait=genius
+	trait=honest
+	trait=paranoid
+	trait=flamboyant_schemer
+	trait=groomed
+	2348.10.1={birth=yes}
+}
+3788005={
+	name=Pamela
+	dynasty=1777004
+	female=yes
+	culture=gothamite
+	religion=libertarian
+	diplomacy=6
+	martial=6
+	stewardship=4
+	intrigue=3
+	learning=7
+	trait=scholarly_theologian
+	trait=cruel
+	trait=gardener
+	trait=zealous
+	trait=fair
+	trait=physician
+	2356.6.1={birth=yes}
+}
+3788006={
+	name=Israel
+	dynasty=2005026 #Rothschild
+	martial=5
+	diplomacy=6
+	intrigue=2
+	stewardship=6
+	learning=4
+	culture=yiddish
+	religion=jewish
+	trait=ambitious
+	trait=brave
+	trait=zealous
+	trait=diligent
+	trait=charitable
+	trait=grey_eminence
+	2333.9.14={birth=yes}
+	2354.5.6={
+		create_bloodline = {
+			type = rothschild
+			has_dlc = "Holy Fury"
+		}
+	}
+	2371.10.11={
+		effect={add_rival=3620019} 
+		effect={add_rival=3620022}
+	}
+}
+
+3788007={
+	name="Eleanor"
+	female=yes
+	dynasty=1777022 #Theovelt
+	culture=hudsonian
+	religion=libertarian
+	martial=4
+	diplomacy=6
+	intrigue=3
+	stewardship=5
+	learning=5
+	trait=charismatic_negotiator
+	trait=kind
+	trait=diligent
+	trait=gregarious
+	2359.10.11={
+		birth=yes
+		culture=gothamite
+	}
+	2380.1.1={add_matrilineal_spouse=3788008}
+}
+
+3788008={
+	name="Elihu"
+	dynasty=1777017
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=6
+	culture=tuskegean #"gothamite"
+	religion=charismatic #"catholic"
+	trait=wroth
+	trait=kind
+	trait=skilled_tactician
+	2352.1.1={birth=yes
+	culture=gothamite}
+	2380.1.1={add_matrilineal_spouse=2200007}
+}
+
+3788009={
+	name="Launcelot"
+	dynasty=1776025
+	culture=hudsonian
+	religion=postadventist
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=3
+	learning=4
+	trait=homosexual
+	trait=tough_soldier
+	trait=brave
+	trait=strong
+	trait=zealous
+	2339.12.21={birth=yes}
+}
+
+3788010={
+	name="Washington"
+	dynasty=1776020 # Ranvincle
+	martial=5
+	diplomacy=7
+	intrigue=4
+	stewardship=6
+	learning=6
+	culture=hudsonian
+	religion=anabaptist
+	trait=poet
+	trait=grey_eminence
+	2333.4.3={birth=yes}
+}
+
+3788011={
+	name="Tekakwitha"
+	dynasty=2007014
+	female=yes
+	religion=sedevacantist
+	culture=iroquois
+	martial=5
+	diplomacy=5
+	intrigue=4
+	stewardship=6
+	learning=7
+	trait=mastermind_theologian
+	trait=scarred
+	trait=chaste
+	trait=temperate
+	trait=zealous
+	2356.7.14={birth=yes}
+}
+
+3788012={
+	name="Ebeneezer"
+	dynasty=1776021 # Herkimer
+	martial=5
+	diplomacy=4
+	intrigue=5
+	stewardship=6
+	learning=6
+	father=3788018
+	culture=hudsonian
+	religion=high_church
+	trait=midas_touched
+	trait=envious
+	trait=greedy
+	trait=cynical
+	trait=paranoid
+	2312.2.7={birth=yes}
+}
+
+3788018={
+	name="Charles"
+	dynasty=1776021 # Herkimer
+	martial=6
+	diplomacy=4
+	intrigue=5
+	stewardship=5
+	learning=4
+	culture=hudsonian
+	religion=high_church
+	trait=depressed
+	2285.8.21={birth=yes}
+	2309.6.13={add_spouse=3788013}
+	2356.3.31={death={death_reason=death_trait}}
+}
+
+3788013={
+	name=Fanny
+	female=yes
+	culture=riverlander
+	religion=catholic
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=4
+	2289.12.21={birth=yes}
+	2309.6.13={add_spouse=3788013}
+	2327.11.10={death={death_reason=death_childbirth}}
+}
+
+3788014={
+	name=Fanny
+	female=yes
+	dynasty=1776021 # Herkimer
+	culture=hudsonian
+	religion=high_church
+	martial=4
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	learning=5
+	trait=kind
+	2327.11.10={birth=yes}
+	2356.3.31={death={death_reason=death_childbirth}}
+	father=3788018
+	mother=3788013
+}
+
+3788015={
+	name=Frederick
+	dynasty=1776021 # Herkimer
+	culture=hudsonian
+	religion=high_church
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	learning=5
+	trait=underhanded_rogue
+	trait=kind
+	trait=charitable
+	trait=gregarious
+	mother=3788014
+	2356.3.31={birth=yes}
+	2377.1.1={add_spouse=3867002}
+}
+
+3788016={
+	name=Brom
+	dynasty=1776020
+	culture=hudsonian
+	religion=occultist
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	learning=4
+	trait=skilled_tactician
+	trait=strong
+	trait=dull
+	trait=brave
+	trait=envious
+	trait=deceitful
+	2359.10.5={
+		birth=yes
+		give_nickname = nick_bones
+	}
+	2380.1.1={add_spouse=3788017}
+}
+
+3788017={
+	name=Katrina
+	culture=hudsonian
+	religion=occultist
+	female=yes
+	martial=4
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=5
+	2360.4.3={birth=yes}
+	2380.1.1={add_spouse=3788016}
+}
+3788020={
+	name="Molly"
+	dynasty=2778002 # Pitcher
+	female=yes
+	culture=gothamite
+	religion=libertarian
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	trait=skilled_tactician
+	trait=brave
+	2354.10.13 = {birth=yes}
+}
+
+3788021={
+	name="Hiram"
+	dynasty=1776000 # Groot
+	martial=8
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	learning=5
+	culture=hudsonian
+	religion=anabaptist
+	trait=tough_soldier
+	trait=giant
+	trait=kind
+	trait=shy
+	trait=brave
+	trait=zealous
+	2360.11.1={birth=yes}
+	2380.1.1={employer=1788104}
+}
+
+3788022={
+	name="Arthur"
+	dynasty=1776027
+	martial=3
+	diplomacy=6
+	intrigue=8
+	stewardship=4
+	learning=4
+	culture=hudsonian
+	religion=ursuline
+	trait=ambitious
+	trait=gregarious
+	trait=intricate_webweaver
+	2345.4.7={birth=yes}
+}
+
+3788023={
+	name="Richard"
+	dynasty=1777000 #Wayne
+	culture=gothamite
+	religion=americanist
+	father=3788000
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=6
+	learning=5
+	trait=skilled_tactician
+	trait=gregarious
+	trait=brave
+	trait=trusting
+	trait=duelist
+	trait=just
+	trait=inspiring_leader
+	2358.4.1={birth=yes}
+}
+
+3788024={
+	name="Jason"
+	dynasty=1777000 #Wayne
+	culture=gothamite
+	religion=americanist
+	father=3788000
+	martial=7
+	diplomacy=4
+	intrigue=6
+	stewardship=5
+	learning=5
+	trait=tough_soldier
+	trait=ambitious
+	trait=wroth
+	trait=cynical
+	trait=brawny
+	trait=aggressive_leader
+	2361.3.1={birth=yes}
+}
+
+3788025={
+	name="Timothy"
+	dynasty=1777000 #Wayne
+	culture=gothamite
+	religion=americanist
+	father=3788000
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=5
+	learning=7
+	trait=genius
+	trait=intricate_webweaver
+	trait=chaste
+	trait=patient
+	trait=erudite
+	trait=diligent
+	2363.8.1={birth=yes}
+}
+
+3788026={
+	name="Damian"
+	dynasty=1777000 #Wayne
+	culture=gothamite
+	religion=americanist
+	father=3788000
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=5
+	learning=7
+	trait=haughty
+	trait=rowdy
+	trait=willful
+	trait=duelist
+	trait=cruel
+	2368.9.1={birth=yes}	
+}
+
+3788027={
+	name="Langhorne"
+	dynasty=1776015 #Stratton
+	culture=hudsonian
+	religion=americanist
+	martial=4
+	diplomacy=8
+	intrigue=5
+	stewardship=6
+	learning=7
+	trait=gregarious
+	trait=cynical
+	2355.11.30={birth=yes}
+}

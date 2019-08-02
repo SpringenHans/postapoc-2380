@@ -1,0 +1,8 @@
+2380.1.1 = {
+	holder = 3788020
+	liege = "d_north_jersey"
+	law = true_cognatic_succession
+}
+2664.4.4 = {
+	holder=1788014 # Levi the Liberator
+}

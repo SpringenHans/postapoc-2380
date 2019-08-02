@@ -1,0 +1,14 @@
+# 350 - Liberal
+
+# County Title
+title = c_liberal
+
+# Settlements
+max_settlements = 3
+b_liberal_KS = tribal
+#b_lakin_KS = city
+
+# Misc
+culture = grangelander
+religion = revelationist
+terrain = steppe

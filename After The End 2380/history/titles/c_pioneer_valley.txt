@@ -1,0 +1,15 @@
+2375.1.1 = {
+	liege="k_new_england"
+	holder = 3620020
+}
+2600.1.1 = {
+	liege = "d_migonids"
+	law = succ_tanistry
+}
+
+2618.5.3 = {
+	holder = 1620065
+}
+2668.7.29 = {
+	holder = 1620067
+}

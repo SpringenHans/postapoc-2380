@@ -1,0 +1,6 @@
+2380.1.1 = {
+	holder=3788027 # Langhorne Stratton
+}
+2660.1.1 = {
+	holder=1788018 # Alan Wents
+}

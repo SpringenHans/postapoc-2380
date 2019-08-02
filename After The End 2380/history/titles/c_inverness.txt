@@ -1,0 +1,11 @@
+2379.12.1 = {
+	holder = 3899004
+	law = succ_tanistry
+}
+2609.1.1 = {
+	holder = 1899010
+}
+2647.9.26 = {
+	holder = 1899016
+	liege = d_cape_breton
+}

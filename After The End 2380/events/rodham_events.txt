@@ -1,0 +1,27 @@
+namespace = rodham
+
+long_character_event = {
+	id = rodham.1
+	title = "rodham.1.name"
+	desc = "rodham.1.desc"
+	
+	is_triggered_only = yes
+	
+	trigger = { has_game_rule = { name = shattered_realms value = off } }
+	
+	option = {
+		name = "rodham.1.optA" # Excelsior!
+		spawn_unit = {
+				province = 3 # Manhattan
+				owner = ROOT
+				troops = {
+					heavy_infantry = { 1800 1800 }
+					pikemen = { 1200 1200 }
+					light_infantry = { 3000 3000 }
+				}
+				attrition = 1.0
+				disband_on_peace=yes
+		}
+		wealth = 500
+	}
+}

@@ -1,0 +1,9 @@
+2300.1.1 = {
+	liege = "d_tidewater"
+}
+2378.1.1 = {
+	holder = 3789010
+}
+2642.1.1 = { # Marmaduke Coriaceus
+	holder = 1861026
+}

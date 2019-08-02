@@ -1,0 +1,23 @@
+#Historical Bloodlines 
+
+mlk = { #King Martin Luther
+	afroanglo_opinion = 10
+	evangelical_opinion = 5
+	global_revolt_risk = -0.03
+	inheritance = patrilineal
+	allow_bastards = yes
+	flags = { historical_bloodline pre_event_bloodline }
+	picture = GFX_bloodlines_symbol_cross_2
+}
+
+smithson = { #Bannister Smithson
+	americanist_opinion = 10
+	beltway_opinion = 5
+	anabaptist_opinion = -10
+	combat_rating = 5
+	bloodline_effect_presidential_elective_boon = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	flags = { historical_bloodline bloodline_smithson bloodline_presidential_elective_bonus }
+	picture = GFX_bloodlines_placeholder_symbol
+}

@@ -1,0 +1,13 @@
+2300.1.1 = {
+	liege = "k_deitscherei"
+}
+2360.1.1 = {
+	holder=3997002
+}
+2600.1.1 = {
+	liege = "d_east_susquehanna"
+}
+
+2660.1.1 = { #
+	holder = 1997019
+}

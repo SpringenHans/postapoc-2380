@@ -1,0 +1,500 @@
+1620073 = {
+	name="Vincent"
+	dynasty=1788046 # Mahonic
+	culture=yankee
+	religion=occultist
+	trait=brilliant_strategist
+	trait=lore_old_ones
+	trait=strong
+	trait=ambitious
+	trait=brave
+	trait=gregarious
+	2290.8.20={birth=yes} # 400 years to the day after the birth of H.P. Lovecraft
+	2306.4.10={
+		create_bloodline = {
+			type = mcmahon
+			has_dlc = "Holy Fury"
+		}
+	}
+	2366.2.15 = { # Lived to old age
+		death={
+			death_reason=death_murder_unknown # Assassinated, killer not specified in score screen.
+		}
+	}
+}
+
+1620074 = {
+	name="Keziah"
+	dynasty=1788046 # Mahonic
+	culture=yankee
+	religion=occultist
+	trait=lore_old_ones
+	trait=depressed
+	trait=cruel
+	trait=impaler
+	father=1620073
+	2324.5.16={birth=yes}
+	2381.7.1 = { # Lost Hudsonia to the Rodhams, threw himself in the sea.
+		death={
+			death_reason=death_suicide
+		}
+	}
+}
+
+1620075 = {
+	name="Jacob" # Not attested in score screen, filling time between Keziah and Zadok
+	dynasty=1788046 # Mahonic
+	culture=yankee
+	religion=occultist
+	trait=lore_old_ones
+	trait=midas_touched
+	father=1620074
+	2350.1.1={birth=yes}
+	2413.1.1={death=yes}
+}
+
+1620076 = {
+	name="Lemuel" # Not attested in score screen, filling time between Keziah and Zadok
+	dynasty=1788046 # Mahonic
+	culture=yankee
+	religion=occultist
+	trait=lore_old_ones
+	father=1620075
+	2380.1.1={birth=yes}
+	2442.1.1={death=yes}
+}
+3620000 = {
+	name="Stephen"
+	dynasty=1780041 # King
+	trait=poet
+	trait=diligent
+	trait=scholar
+	trait=drunkard
+	trait=ambitious
+	trait=fortune_builder
+	trait=lore_pact
+	martial=3
+	diplomacy=8
+	stewardship=6
+	intrigue=7
+	learning=8
+	culture=yankee
+	religion=occultist
+	2347.9.21={birth=yes}
+	2371.1.2={add_spouse=3620001}
+}
+
+3620001 = {
+	name="Tabitha"
+	female=yes
+	culture=yankee
+	religion=occultist
+	martial=4
+	diplomacy=8
+	stewardship=6
+	intrigue=4
+	learning=8
+	trait=scholarly_theologian
+	trait=humble
+	trait=scholar
+	trait=diligent
+	trait=charitable
+	2349.3.24=(birth=yes}
+	2371.1.2={add_spouse=3620000}
+}
+
+3620002 = {
+	name="Carrieta"
+	female=yes
+	dynasty=1780041 # King
+	father=3620000
+	mother=3620001
+	culture=yankee
+	religion=occultist
+	trait=lore_pact
+	2374.4.5={birth=yes}
+}
+
+3620003 = {
+	name="Jacqueline"
+	female=yes
+	dynasty=1780041 # King
+	father=3620000
+	mother=3620001
+	culture=yankee
+	religion=occultist
+	trait=twin
+	2377.1.28={birth=yes}
+}
+
+3620004 = {
+	name="Danielle"
+	female=yes
+	dynasty=1780041 # King
+	father=3620000
+	mother=3620001
+	culture=yankee
+	religion=occultist
+	trait=twin
+	2377.1.28={birth=yes}
+}
+
+3620005 = {
+	name="Phillard"
+	dynasty=1780002
+	culture=yankee
+	religion=occultist
+	martial=4
+	diplomacy=6
+	stewardship=5
+	intrigue=7
+	learning=8
+	trait=mastermind_theologian
+	trait=zealous
+	trait=craven
+	trait=shy
+	trait=theologian
+	trait=frail
+	2340.8.20={birth=yes}
+}
+
+3620006 = {
+	name="Franklin"
+	dynasty=1780001 #Pabodie
+	culture=yankee
+	religion=occultist
+	father=3620007
+	mother=3620008
+	martial=3
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=child_of_consort
+	trait=fair
+	trait=scarred_mid
+	trait=fortune_builder
+	trait=sympathy_christendom
+	trait=adventurer
+	trait=brave
+	trait=gregarious
+	2356.9.3={birth=yes}
+}
+
+3620007 = {
+	name="Ahab"
+	dynasty=1780001 #Pabodie
+	culture=yankee
+	religion=occultist
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait=stubborn
+	trait=lunatic
+	2321.6.7={birth=yes}
+	2371.12.1={death=yes}
+	2355.1.1={add_consort=3620008}
+}
+
+3620008 = {
+	name="Magdalen"
+	female=yes
+	culture=yankee
+	religion=occultist
+	martial=3
+	diplomacy=7
+	stewardship=4
+	intrigue=7
+	learning=4
+	trait=intricate_webweaver
+	trait=envious
+	trait=fair
+	trait=gregarious
+	2336.4.24={birth=yes}
+}
+
+3620009 = {
+	name="Edward"
+	dynasty=1780036 # Zane
+	culture=yankee
+	religion=occultist
+	martial=6
+	diplomacy=7
+	stewardship=5
+	intrigue=3
+	learning=5
+	trait=charismatic_negotiator
+	trait=lore_pact
+	trait=cynical
+	trait=greedy
+	trait=proud
+	trait=ambitious
+	trait=envious
+	2337.8.15={birth=yes}
+}
+
+3620010 = {
+	name="Cassandra"
+	female=yes
+	dynasty=1780036 # Zane
+	culture=yankee
+	religion=occultist
+	father=3620009
+	martial=4
+	diplomacy=6
+	stewardship=5
+	intrigue=3
+	learning=5
+	trait=martial_cleric
+	trait=honest
+	trait=lustful
+	2361.10.5={birth=yes}
+	2377.10.5={add_spouse=3620012}
+}
+
+3620011 = {
+	name="Phineas"
+	dynasty=1780036 # Zane
+	culture=yankee
+	religion=occultist
+	father=3620009
+	martial=5
+	diplomacy=4
+	stewardship=4
+	intrigue=6
+	learning=6
+	trait=brawny
+	trait=haughty
+	trait=patient
+	trait=brooding
+	2365.1.4={birth=yes}
+}
+
+3620012 = {
+	name="Paul"
+	dynasty=1780015 # Fenimore
+	martial=5
+	diplomacy=8
+	intrigue=4
+	stewardship=6
+	learning=8
+	culture=yankee
+	religion=occultist
+	trait=thrifty_clerk
+	trait=lore_masons
+	trait=arbitrary
+	trait=gregarious
+	trait=gluttonous
+	trait=proud
+	2359.2.1={birth=yes}
+	2377.10.5={add_spouse=3620010}
+}
+
+3620013 = {
+	name="Francis"
+	dynasty=1780017
+	culture=yankee
+	religion=occultist
+	martial=8
+	diplomacy=0
+	stewardship=3
+	intrigue=5
+	learning=3
+	trait=tough_soldier
+	trait=slow
+	trait=giant
+	trait=strong
+	trait=wroth
+	trait=disfigured
+	trait=cruel
+	trait=arbitrary
+	trait=scarred_high
+	trait=lore_pact
+	2350.1.1={birth=yes}
+}
+
+3620014 = {
+	name="Henry"
+	dynasty=1787049
+	culture=yankee
+	religion=occultist
+	martial=5
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=6
+	trait=scholarly_theologian
+	trait=lore_old_ones
+	trait=peasant_leader
+	2318.8.1={birth=yes}
+}
+
+3620015 = {
+	name="Goodenough"
+	dynasty=1787049
+	culture=yankee
+	religion=occultist
+	martial=5
+	diplomacy=6
+	stewardship=4
+	intrigue=6
+	learning=5
+	father=3620014
+	trait=zealous
+	trait=lore_old_ones
+	2353.3.21={birth=yes}
+}
+
+3620016 = {
+	name="Obed"
+	dynasty=1787048
+	culture=yankee
+	religion=occultist
+	martial=7
+	diplomacy=4
+	stewardship=4
+	intrigue=8
+	learning=5
+	trait=ugly
+	trait=uncouth
+	trait=elusive_shadow
+	trait=mystic
+	trait=lore_old_ones
+	2313.6.1={birth=yes}
+}
+
+3620017 = {
+	name="Alice"
+	dynasty=1787048
+	culture=yankee
+	religion=occultist
+	martial=5
+	diplomacy=6
+	stewardship=7
+	intrigue=6
+	learning=7
+	female=yes
+	father=3620016
+	trait=underhanded_rogue
+	trait=deceitful
+	trait=lore_old_ones
+	2340.9.30={birth=yes}
+}
+
+3620018 = {
+	name="Elijah"
+	dynasty=1787048
+	culture=yankee
+	religion=occultist
+	martial=8
+	diplomacy=6
+	stewardship=4
+	intrigue=7
+	learning=4
+	mother=3620017
+	trait=intricate_webweaver
+	trait=ugly
+	trait=sturdy
+	trait=stubborn
+	2362.5.8={birth=yes}
+}
+
+3620019 = {
+	name="Isaac"
+	culture=yiddish
+	religion=jewish
+	martial=5
+	diplomacy=4
+	stewardship=4
+	intrigue=6
+	learning=4
+	trait=intricate_webweaver
+	trait=envious
+	trait=charitable
+	trait=deceitful
+	trait=patient
+	2333.3.3={birth=yes}
+	2371.10.11={
+		add_trait=sympathy_judaism
+		add_trait=lore_masons
+		religion=occultist
+		effect={add_rival=3788006} 
+	}
+}
+
+3620020 = {
+	name="Walden"
+	dynasty=1788045
+	culture=yankee
+	religion=occultist
+	martial=3
+	diplomacy=6
+	stewardship=6
+	intrigue=5
+	learning=8
+	trait=thrifty_clerk
+	trait=poet
+	trait=gardener
+	trait=content
+	trait=temperate
+	trait=just
+	trait=lore_masons
+	2347.7.12={birth=yes}
+}
+
+3620021 = {
+	name=Jehoram
+	dynasty=1780040
+	culture=yankee
+	religion=occultist
+	martial=7
+	diplomacy=4
+	stewardship=4
+	intrigue=7
+	learning=8
+	trait=brilliant_strategist
+	trait=zealous
+	trait=possessed
+	trait=ambitious
+	trait=cruel
+	2344.12.24={birth=yes}
+}
+
+3620022 = {
+	name=Sander
+	dynasty=2005003
+	culture=yiddish
+	religion=jewish
+	martial=4
+	diplomacy=6
+	stewardship=7
+	intrigue=5
+	learning=8
+	trait=grey_eminence
+	trait=charitable
+	trait=cynical
+	trait=stubborn
+	trait=ambitious
+	trait=just
+	2341.9.8={birth=yes}	
+	2371.10.11={
+		effect={add_rival=3788006} 
+	}
+}
+3620023={
+	name="Owen"
+	dynasty=1780007
+	culture=yankee
+	religion=occultist
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=6
+	learning=4
+	trait=patient
+	trait=kind
+	trait=content
+	2340.9.21={birth=yes}
+}

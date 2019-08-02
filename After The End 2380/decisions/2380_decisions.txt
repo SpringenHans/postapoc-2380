@@ -1,0 +1,164 @@
+decisions = {
+	bannisters_legacy = {
+		is_high_prio = yes
+		only_independent = yes
+		ai = no
+
+		potential = {
+			has_character_flag = is_filibuster
+			NOT = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_smithson
+				}
+			}
+			year <= 2400
+		}
+		allow = {
+			piety = 300
+			war = no
+			NOT = { trait = incapable }
+			age > 16
+			higher_tier_than = COUNT
+			year <= 2400
+		}
+		effect = {
+			piety = -300
+			if = {
+				limit = {
+					NOT = { completely_controls = d_delmarva }
+				}
+				add_claim = d_delmarva
+				hidden_tooltip = {
+					add_claim = c_dover
+					add_claim = c_pocomoke
+					add_claim = c_wilmington
+					add_claim = c_choptank
+				}
+			}
+			if = {
+				limit = {
+					NOT = { completely_controls = d_philadelphia }
+				}
+				add_claim = d_philadelphia
+				hidden_tooltip = {
+					add_claim = c_philadelphia
+				}
+			}
+			if = {
+				limit = {
+					NOT = { completely_controls = d_maryland }
+				}
+				add_claim = d_maryland
+				hidden_tooltip = {
+					add_claim = c_baltimore
+					add_claim = c_severn
+					add_claim = c_frederick
+				}
+			}
+			if = {
+				limit = {
+					NOT = { completely_controls = d_capital }
+				}
+				add_claim = d_capital
+				hidden_tooltip = {
+					add_claim = c_washington
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { religion = americanist }
+				}
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { religion = americanist }
+				}
+				religion = americanist
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_smithson
+						}
+					}
+				}
+				any_bloodline = {
+					limit = {
+						has_bloodline_flag = bloodline_smithson
+					}
+					add_bloodline_member = root
+				}
+			}
+			any_child_even_if_dead = {
+				show_scope_change = no
+				if = {
+					limit = {
+						NOT = { religion = americanist }
+					}
+					if = {
+						limit = {
+							higher_tier_than = BARON
+						}
+						religion_authority = {
+							modifier = ruler_converted_from
+						}
+						religion = americanist
+						hidden_tooltip = {
+							religion_authority = {
+								modifier = ruler_converted_to
+							}
+						}
+					}
+					else = {
+						religion = americanist
+					}
+				}
+				hidden_tooltip = {
+					if = {
+						limit = {
+							NOT = {
+								any_owned_bloodline = {
+									has_bloodline_flag = bloodline_smithson
+								}
+							}
+						}
+						any_bloodline = {
+							limit = {
+								has_bloodline_flag = bloodline_smithson
+							}
+							add_bloodline_member = PREV
+						}
+					}
+				}
+				any_child_even_if_dead = {
+					religion = americanist
+					hidden_tooltip = {
+						if = {
+							limit = {
+								NOT = {
+									any_owned_bloodline = {
+										has_bloodline_flag = bloodline_smithson
+									}
+								}
+							}
+							any_bloodline = {
+								limit = {
+									has_bloodline_flag = bloodline_smithson
+								}
+								add_bloodline_member = PREV
+							}
+						}
+					}
+				}
+			}
+		}
+	}

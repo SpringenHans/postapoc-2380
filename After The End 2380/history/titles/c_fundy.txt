@@ -1,0 +1,9 @@
+2379.3.25 = {
+	liege = k_new_england
+	holder = 3899002
+}
+2664.11.9 = {
+	holder = 1899022 # Christian Oppermann
+	law = succ_tanistry
+	liege = k_maritimes
+}

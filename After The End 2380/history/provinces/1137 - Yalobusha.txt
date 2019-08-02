@@ -1,0 +1,14 @@
+# 1137- Yalobusha
+
+# County Title
+title = c_yalobusha
+
+# Settlements
+max_settlements = 3
+b_winona_MS = tribal
+b_grenada_MS = temple
+
+# Misc
+culture = dixie
+religion = revelationist
+terrain = farmlands

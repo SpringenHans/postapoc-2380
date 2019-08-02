@@ -1,0 +1,176 @@
+###ÄNSI
+3846000={
+	name="George"
+	dynasty=2797000 #Bailey
+	culture=grangelander
+	religion=catholic
+	martial=7
+	diplomacy=7
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait=zealous
+	trait=hedonist
+	trait=crowned_by_pope
+	trait=inspiring_leader
+	trait=ambitious
+	trait=skilled_tactician
+	trait=strong
+	trait=greedy
+	2343.1.1={birth=yes}
+	2361.1.1={
+		effect={add_lover=3846002}
+		add_spouse=3846003
+	}
+}
+3846001={
+	name="Lucas"
+	dynasty=1797014 #Greysnow
+	culture=sioux
+	religion=catholic
+	martial=4
+	diplomacy=7
+	stewardship=5
+	intrigue=8
+	learning=6
+	father=3846000
+	mother=3846002
+	trait=bastard
+	trait=ambitious
+	trait=patient
+	trait=sympathy_american_native
+	trait=kind
+	trait=quick
+	2362.1.1={
+		birth=yes
+		culture=grangelander
+	}
+}
+3846002={
+	name="Lakota"
+	female=yes
+	culture=sioux
+	religion=catholic
+	secret_religion=peyotist
+	martial=5
+	diplomacy=7
+	stewardship=5
+	intrigue=6
+	learning=5
+	trait=quick
+	trait=zealous
+	2344.1.1={birth=yes}
+	2361.1.1={
+		effect={add_lover=3846000}
+	}
+}
+3846003={
+	name="Maud"
+	female=yes
+	culture=grangelander
+	religion=catholic
+	martial=4
+	diplomacy=6
+	stewardship=4
+	intrigue=7
+	learning=5
+	trait=wroth
+	trait=chaste
+	trait=groomed
+	trait=flamboyant_schemer
+	2343.1.1={birth=yes}
+	2361.1.1={add_spouse=3846000}
+	2362.1.1={
+		effect={
+			add_rival=3846002
+			add_rival=3846000
+		}
+	}
+}
+3846004={
+	name="Tom"
+	dynasty=2797000 #Bailey
+	culture=grangelander
+	religion=catholic
+	father=3846000
+	mother=3846003
+	martial=3
+	diplomacy=8
+	stewardship=7
+	intrigue=6
+	learning=7
+	trait=clubfooted
+	trait=temperate
+	trait=craven
+	2362.1.1={birth=yes}
+}
+3846005={
+	name="Clark"
+	dynasty=2797000 #Bailey
+	culture=grangelander
+	religion=catholic
+	father=3846000
+	mother=3846003
+	martial=6
+	diplomacy=4
+	stewardship=4
+	intrigue=3
+	learning=3
+	trait=strong
+	trait=uncouth
+	trait=wroth
+	trait=zealous
+	trait=envious
+	2364.3.1={birth=yes}
+}
+3846006={
+	name="Maxine"
+	dynasty=2797000 #Bailey
+	female=yes
+	culture=grangelander
+	religion=catholic
+	father=3846000
+	mother=3846003
+	martial=5
+	diplomacy=7
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait=curious
+	trait=timid
+	trait=conscientious
+	trait=humble
+	2368.6.1={birth=yes}
+}
+
+3846007={
+	name="Moses"
+	dynasty=2797000 #Bailey
+	culture=grangelander
+	religion=catholic
+	father=3846000
+	mother=3846003
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=4
+	trait=rowdy
+	2374.2.1={birth=yes}
+}
+
+3846008={
+	name="Mary"
+	dynasty=2797000 #Bailey
+	culture=grangelander
+	religion=catholic
+	father=3846000
+	mother=3846003
+	martial=4
+	diplomacy=7
+	stewardship=6
+	intrigue=6
+	learning=8
+	trait=baptized_by_pope
+	2379.1.1={birth=yes}
+}

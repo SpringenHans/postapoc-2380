@@ -1,0 +1,10 @@
+2377.1.1 = {
+	liege = "k_new_england"
+	holder = 3788022
+}
+2381.6.30 = {
+	liege = "k_hudsonia"
+}
+2660.1.1 = {
+	holder=1788021 # Abraham Glanner
+}

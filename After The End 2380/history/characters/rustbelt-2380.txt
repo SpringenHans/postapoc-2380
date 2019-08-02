@@ -1,0 +1,77 @@
+###ÄNSI
+666103 = {
+	name="Stanislaus"
+	dynasty=1789000 # Avondale
+	culture=chicagoan
+	religion=americanist
+	2352.4.19={birth=yes}
+	2389.10.2 = {
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2420.4.5={death=yes}
+}
+
+3967000 = {
+	name = "Gresham"
+	dynasty = 1842069 # Young
+	culture = chicagoan
+	religion = woolleyite
+	trait = zealous
+	trait = chaste
+	trait = charismatic_negotiator
+	trait = proud
+	2355.8.30 = { birth = yes }
+}
+
+3967001 = {
+	name = "Jeffrey"
+	dynasty = 1789003 # Parsons
+	culture = chicagoan
+	religion = catholic
+	trait = zealous
+	trait = mastermind_theologian
+	trait = charitable
+	trait = gregarious
+	trait = trusting
+	2343.4.10 = { birth = yes }
+}
+
+3967002 = {
+	name = "Fionnslav"
+	dynasty = 1783033 # Hart
+	culture = chicagoan
+	religion = americanist
+	trait = ambitious
+	trait = strong
+	trait = skilled_tactician
+	trait = trusting
+	2358.1.1 = { birth = yes }
+}
+
+3967003 = { #Tycoon of Wabash
+	name = "Kirk"
+	dynasty = 1967011 #Ryder
+	culture = motowner
+	religion = rust_cultist
+	trait = skilled_tactician
+	trait = greedy
+	trait = gregarious
+	2347.1.1 = {birth = yes}
+}
+
+3967004={
+	name="Hugo"
+	dynasty=1784011
+	culture=rostmann
+	religion=rust_cultist
+	martial=6
+	diplomacy=3
+	stewardship=3
+	intrigue=4
+	learning=2
+	trait=skilled_tactician
+	trait=peasant_leader
+	trait=aggressive_leader
+	2348.5.13={birth=yes}
+}

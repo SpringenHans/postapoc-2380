@@ -1,0 +1,7 @@
+2361.1.1 = {
+	holder = 7000012
+}
+2622.7.12 = {
+	liege = d_black_belt
+	holder = 3000051
+}

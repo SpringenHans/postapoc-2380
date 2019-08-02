@@ -1,0 +1,13 @@
+2300.1.1 = { 
+	liege = "d_new_brunswick"
+}
+
+2374.1.1 = {
+	holder = 3899001
+	law = succ_tanistry
+}
+
+2662.8.1 = {
+	holder = 1899019 # Caragh Criss
+	law = succ_tanistry
+}

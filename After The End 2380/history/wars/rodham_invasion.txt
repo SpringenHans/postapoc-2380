@@ -1,0 +1,19 @@
+name = "Liberation of Hudsonia"
+
+casus_belli = {
+	actor = 1788104
+	recipient = 1620074
+	casus_belli=rodham_invasion
+	landed_title=k_hudsonia
+	date=2380.7.3
+}
+
+2380.7.3 = {
+	add_attacker = 1788104
+	add_defender = 1620074
+}
+
+2381.1.1 = {
+	rem_attacker = 1788104
+	rem_defender = 1620074
+}

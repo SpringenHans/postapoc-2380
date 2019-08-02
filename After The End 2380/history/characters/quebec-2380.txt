@@ -1,0 +1,211 @@
+###ÄNSI
+3763000={
+	name="Acadie"
+	dynasty=1796003 #Castel
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	martial=7
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait=fortune_builder
+	trait=just
+	trait=groomed
+	trait=kind
+	trait=twin
+	2351.6.24={birth=yes}
+}
+3763001={
+	name="Vincent"
+	dynasty=1796003 #Castel
+	culture=quebecois
+	religion=ursuline
+	father=3763002
+	mother=3763003
+	martial=6
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=4
+	trait=tough_soldier
+	trait=wroth
+	trait=ambitious
+	trait=envious
+	trait=twin
+	trait=aggressive_leader
+	2351.6.24={birth=yes}
+	2370.1.1={add_spouse=3763006}
+}
+3763002={
+	name="Étienne"
+	culture=quebecois
+	religion=ursuline
+	martial=3
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=skilled_tactician
+	trait=patient
+	trait=brawny
+	trait=strategist
+	trait=defensive_leader
+	2318.7.15={birth=yes}
+}
+3763003={
+	name="Frédérique"
+	dynasty=1796003 #Castel
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	martial=5
+	diplomacy=7
+	stewardship=7
+	intrigue=5
+	learning=6
+	trait=just
+	trait=socializer
+	trait=chaste
+	trait=charitable
+	2318.1.30={birth=yes}
+	2374.6.22={death=yes}
+}
+3763004={
+	name="Charles"
+	dynasty=1796007 #Blanchet
+	culture=quebecois
+	religion=ursuline
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=7
+	trait=scholarly_theologian
+	trait=cynical
+	trait=shy
+	trait=paranoid
+	2332.5.15={birth=yes}
+}
+3763005={
+	name="Jean"
+	dynasty=1796007 #Blanchet
+	culture=quebecois
+	religion=ursuline
+	father=3763004
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=underhanded_rogue
+	trait=humble
+	trait=content
+	trait=slothful
+	2350.1.7={birth=yes}
+}
+3763006={
+	name="Jeannine"
+	dynasty=1796007 #Blanchet
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	father=3763004
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=charismatic_negotiator
+	trait=arbitrary
+	trait=deceitful
+	trait=cruel
+	trait=envious
+	2353.7.1={birth=yes}
+	2370.1.1={add_spouse=3763001}
+}
+3763007={
+	name="Agrippine"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=infirm
+	trait=scarred
+	trait=zealous
+	2303.1.1={birth=yes}
+	2380.1.1={give_nickname=nick_the_undying}
+}
+
+3763008={
+	name=Guy
+	dynasty=1796044
+	culture=quebecois
+	religion=ursuline
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=martial_cleric
+	trait=content
+	trait=cruel
+	trait=hedonist
+	2346.10.31={birth=yes}
+}
+
+3763009={
+	name="Augustin"
+	dynasty=1796048
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=7
+	culture=quebecois
+	religion=ursuline
+	trait=one_legged
+	trait=erudite
+	trait=shy
+	trait=fortune_builder
+	2345.1.1={birth=yes}
+	2366.1.1={add_spouse=3763010}
+}
+
+3763010={
+	name="Sibylle"
+	female=yes
+	martial=4
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=6
+	culture=quebecois
+	religion=ursuline
+	trait=underhanded_rogue
+	trait=lustful
+	trait=kind
+	2343.1.1={birth=yes}
+	2366.1.1={add_spouse=3763009}
+}
+
+3763011={
+	name="Marie"
+	female=yes
+	martial=6
+	diplomacy=5
+	intrigue=3
+	stewardship=4
+	learning=3
+	culture=quebecois
+	religion=ursuline
+	trait=strong
+	trait=zealous
+	trait=brilliant_strategist
+	2360.1.1={birth=yes}
+}

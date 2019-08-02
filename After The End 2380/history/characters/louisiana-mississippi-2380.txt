@@ -1,0 +1,359 @@
+###ÄNSI
+3803000 = { #Duke of Acadiana
+	name="Huey"
+	dynasty=1795000 #Creaux
+	culture=cajun
+	religion=voodoo
+	martial=5
+	diplomacy=3
+	stewardship=6
+	intrigue=2
+	learning=4
+	trait=quick
+	trait=ambitious
+	trait=charitable
+	trait=indulgent_wastrel
+	2335.8.30={birth=yes}
+}
+
+3803001 = { #High Chief of Choctaw
+	name="Freeman"
+	dynasty=1785030 #Jackson
+	culture=tuskegean
+	religion=postadventist
+	martial=4
+	diplomacy=3
+	stewardship=6
+	intrigue=3
+	learning=7
+	trait=skilled_tactician
+	trait=zealous
+	trait=arbitrary
+	trait=cruel
+	2350.5.13={birth=yes}
+}
+
+3803002 = { # Duke of Pine Belt
+	name="Littlejohn"
+	dynasty=1787056 #Yamacraw
+	culture=dixie
+	religion=voodoo
+	martial=7
+	diplomacy=3
+	stewardship=2
+	intrigue=5
+	learning=4
+	trait=tough_soldier
+	trait=strong
+	trait=giant
+	trait=brave
+	trait=just
+	trait=wroth
+	2357.2.3 = {birth=yes}
+}
+
+3803003 = { # Duke of West Florida
+	name="Troy"
+	dynasty=1792006 #Gaillard
+	culture=gulfard
+	religion=voodoo
+	martial=4
+	diplomacy=6
+	stewardship=6
+	intrigue=3
+	learning=5
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=erudite
+	2338.1.1 = {birth=yes}
+}
+
+3803004 = {
+	name="Robard"
+	dynasty=1792006
+	culture=gulfard
+	religion=voodoo
+	trait=fussy
+	trait=proud
+	trait=rowdy
+	2366.1.1 = {birth=yes}
+}
+
+3803005 = { # Count of Natchez
+	name="Bernard"
+	dynasty=1792016 # Penalver
+	culture=creole
+	religion=catholic
+	martial=7
+	diplomacy=2
+	stewardship=5
+	intrigue=3
+	learning=3
+	trait=scholarly_theologian
+	trait=diligent
+	trait=paranoid
+	trait=zealous
+	2355.9.1={birth=yes}
+}
+
+3803006 = { # Mayor of Bayou Pierre
+	name="Pierre"
+	culture=gulfard
+	religion=voodoo
+	2340.1.1={birth=yes}
+}
+
+3803007 = {
+	name="Joseph"
+	dynasty=2795000 # Bertrand
+	culture=cajun
+	religion=evangelical
+	martial=6
+	diplomacy=7
+	stewardship=5
+	intrigue=6
+	learning=6
+	trait=tough_soldier
+	trait=wroth
+	trait=greedy
+	trait=cruel
+	trait=proud
+	2325.1.1={birth=yes}
+	2360.1.1={add_spouse=3803008}
+	2378.1.1={
+		add_trait=zombi
+		remove_trait=proud
+	}
+}
+3803008 = {
+	name="Evangeline"
+	female=yes
+	culture=cajun
+	religion=evangelical
+	trait=zealous
+	trait=humble
+	trait=shy
+	trait=naive_appeaser
+	2344.1.1={birth=yes}
+	2360.1.1={add_spouse=3803007}
+}
+3803009 = { # Murdered by her father
+	name="Olivia"
+	female=yes
+	dynasty=2795000
+	father=3803007
+	mother=3803008
+	culture=cajun
+	religion=evangelical
+	trait=quick
+	2361.1.1={birth=yes}
+	2361.1.2={
+		death= {
+			death_reason=death_murder_unknown
+		}
+	}
+}
+3803010 = {
+	name="Joseph"
+	dynasty=2795000
+	father=3803007
+	mother=3803008
+	culture=cajun
+	religion=evangelical
+	trait=rowdy
+	trait=playful
+	trait=rabies
+	2362.1.1={birth=yes}
+	2372.1.1={
+		death={
+			death_reason=death_trait
+		}
+	}
+}
+3803011 = {
+	name="Julie"
+	female=yes
+	dynasty=2795000
+	father=3803007
+	mother=3803008
+	culture=cajun
+	religion=evangelical
+	trait=timid
+	2373.1.1={birth=yes}
+}
+3803012 = {
+	name="Desiree"
+	female=yes
+	culture=creole
+	religion=voodoo
+	martial=1
+	diplomacy=5
+	stewardship=3
+	intrigue=4
+	learning=1
+	trait=fair
+	trait=intricate_webweaver
+	trait=gregarious
+	trait=ambitious
+	2357.1.1={birth=yes}
+	2375.1.1={employer=3803007}
+}
+3803013 = {
+	name="Eduoard"
+	dynasty=2795000
+	father=3803007
+	mother=3803012
+	culture=creole
+	religion=voodoo
+	trait=slow
+	trait=bastard
+	2377.1.1={birth=yes}
+}
+3803014 = {
+	name="Marcus"
+	dynasty=1795068 # Edi
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=4
+	learning=5
+	culture=tuskegean
+	religion=voodoo
+	trait=paranoid
+	trait=ambitious
+	trait=patient
+	trait=in_hiding
+	trait=elusive_shadow
+	2356.1.1={
+		birth=yes
+		culture=creole
+	}
+}
+3803015 = {
+	name="Doc"
+	dynasty=2895000 #Facilier
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=4
+	learning=5
+	trait=intricate_webweaver
+	trait=mystic
+	trait=deceitful
+	trait=gregarious
+	trait=greedy
+	trait=cruel
+	culture=tuskegean
+	religion=voodoo
+	2344.1.1={
+		birth=yes
+		culture=creole
+		give_nickname=nick_the_shadow
+	}
+}
+3803016 = {
+	name="Eli"
+	dynasty=2795001 #La Bouff
+	martial=3
+	diplomacy=5
+	intrigue=2
+	stewardship=6
+	learning=5
+	culture=cajun
+	religion=catholic
+	trait=fortune_builder
+	trait=kind
+	trait=charitable
+	trait=trusting
+	trait=fat
+	2339.1.1={birth=yes}
+	2378.1.1={
+		add_trait=zombi
+	}
+}
+
+3803017 = {
+	name="Charlotte"
+	dynasty=2795001 #La Bouff
+	father=3803016
+	female=yes
+	culture=cajun
+	religion=catholics
+	martial=1
+	diplomacy=7
+	stewardship=3
+	intrigue=3
+	learning=4
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=charitable
+	trait=groomed
+	2361.1.1={birth=yes}
+}
+
+3803018 = {
+	name="Jacques"
+	dynasty=2755000 #de Port-Royal
+	culture=acadien
+	religion=ursuline
+	martial=7
+	diplomacy=6
+	intrigue=3
+	stewardship=5
+	learning=4
+	trait=tough_soldier
+	trait=adventurer
+	trait=gregarious
+	trait=brave
+	2346.1.1={
+		birth=yes
+		give_nickname=nick_the_culture
+	}
+	2378.1.1={
+		add_trait=zombi
+		remove_trait=gregarious
+		remove_trait=brave
+	}	
+}
+
+3803019 = {
+	name="Naveen"
+	dynasty=1795068 # Edi
+	martial=5
+	diplomacy=7
+	intrigue=3
+	stewardship=6
+	learning=6
+	culture=tuskegean
+	religion=voodoo
+	trait=grey_eminence
+	trait=diligent
+	trait=quick
+	trait=seducer
+	2336.1.1={birth=yes}
+	2378.1.1={
+		death={
+			death_reason=death_murder
+			killer=3803015
+		}
+	}
+}
+
+3803020 = {
+	name="Grant"
+	dynasty=1787004 # Barron
+	culture=dixie
+	religion=americanist
+	martial=8
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	learning=6
+	trait=brilliant_strategist
+	trait=drunkard
+	trait=humble
+	trait=zealous
+	trait=adventurer
+	2338.4.27={birth=yes}
+}
+	

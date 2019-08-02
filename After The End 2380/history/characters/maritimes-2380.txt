@@ -1,0 +1,146 @@
+3899000={
+	name="Jacquotte"
+	dynasty=1755018
+	culture=acadien
+	religion=occultist
+	female=yes
+	diplomacy=5
+	martial=8
+	stewardship=7
+	intrigue=6
+	learning=8
+	trait=skilled_tactician
+	trait=proud
+	trait=strong
+	trait=diligent
+	trait=ambitious
+	trait=organizer
+	trait=lore_masons
+	2356.4.28={birth=yes}
+}
+3899001={
+	name="Eamon"
+	dynasty=1813048
+	culture=maritimer
+	religion=occultist
+	diplomacy=7
+	martial=8
+	stewardship=8
+	intrigue=6
+	learning=8
+	trait=tough_soldier
+	trait=zealous
+	trait=cruel
+	trait=brave
+	trait=quick
+	trait=brawny
+	trait=lore_old_ones
+	2346.5.11={birth=yes}
+}
+3899002={
+	name="Finnegan"
+	dynasty=1813007
+	culture=maritimer
+	religion=celtic_pagan
+	diplomacy=5
+	martial=8
+	stewardship=5
+	intrigue=7
+	learning=4
+	trait=wroth
+	trait=zealous
+	trait=possessed
+	trait=envious
+	trait=misguided_warrior
+	2358.9.27={birth=yes}
+}
+3899003={
+	name="Doughal"
+	dynasty=1813032
+	culture=west_indian
+	religion=high_church
+	martial=6
+	diplomacy=5
+	stewardship=3
+	intrigue=4
+	learning=4
+	trait=skilled_tactician
+	trait=ambitious
+	trait=lustful
+	trait=brave
+	trait=proud
+	trait=seducer
+	2336.4.6={birth=yes
+		culture=maritimer}
+}
+3899004={
+	name="Merida"
+	female=yes
+	dynasty=1813001
+	culture=maritimer
+	religion=high_church
+	martial=8
+	diplomacy=6
+	stewardship=7
+	intrigue=5
+	learning=7
+	trait=quick
+	trait=chaste
+	trait=hunter
+	trait=uncouth
+	trait=stubborn
+	trait=brave
+	trait=skilled_tactician
+	trait=freckles_3
+	2364.6.10={birth=yes}
+}
+3899005={
+	name="Marlin"
+	dynasty=2813001
+	culture=maritimer
+	religion=celtic_pagan
+	martial=5
+	diplomacy=6
+	stewardship=7
+	intrigue=5
+	learning=8
+	trait=mastermind_theologian
+	trait=mystic
+	trait=lunatic
+	2335.1.1={birth=yes}
+}
+3899007={
+	name="Charles"
+	dynasty=2775000
+	culture=acadien
+	religion=ursuline
+	martial=3
+	diplomacy=6
+	stewardship=7
+	intrigue=5
+	learning=5
+	trait=fortune_builder
+	trait=just
+	trait=temperate
+	trait=content
+	2344.7.14={birth=yes}
+}
+3899006={
+	name="Cairbre"
+	dynasty=1813004
+	culture=maritimer
+	religion=high_church
+	secret_religion=celtic_pagan
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=8
+	learning=4
+	trait=intricate_webweaver
+	trait=deceitful
+	trait=zealous
+	trait=gregarious
+	trait=craven
+	trait=one_eyed
+	2352.1.1={birth=yes}
+}

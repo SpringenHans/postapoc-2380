@@ -474,5 +474,37 @@
 	2355.1.1={birth=yes}
 }
 3861026={
-	name=
+	name="Merriman"
+	dynasty=2787004 # Copperhead
+	culture=southron
+	religion=americanist
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=craven
+	trait=trusting
+	trait=content
+	trait=sympathy_christendom
+	trait=slothful
+	trait=naive_appeaser
+	2341.1.14={birth=yes} # Benedict Arnold's birthday, 600 years later
+}
+3861027={
+	name="James"
+	dynasty=1782005 # Dandridge
+	culture=southron
+	religion=americanist
+	martial=6
+	diplomacy=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=brilliant_strategist
+	trait=ambitious
+	trait=diligent
+	trait=brave
+	trait=zealous
+	2350.6.25={birth=yes}
 }

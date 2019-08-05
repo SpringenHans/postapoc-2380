@@ -1,0 +1,12 @@
+# 42 Rutland
+
+# County Title
+title = c_rutland
+
+# Settlements
+max_settlements = 3
+b_rutland_VT = tribal
+
+# Misc
+culture = yankee
+religion = occultist

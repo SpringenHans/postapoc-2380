@@ -9,8 +9,8 @@ b_namu_BC = city
 
 
 # Misc
-culture = canuck
-religion = gaian
+culture = haida
+religion = raven_tales
 terrain = hills
 
 #History

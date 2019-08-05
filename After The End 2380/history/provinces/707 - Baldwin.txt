@@ -5,9 +5,9 @@ title = c_baldwin
 
 # Settlements
 max_settlements = 4
-b_bay_minette_AL = tribal
-#b_spanish_fort_AL = city
-#b_daphne_AL = temple
+b_bay_minette_AL = castle
+b_spanish_fort_AL = city
+b_daphne_AL = temple
 
 # Misc
 culture = gulfard

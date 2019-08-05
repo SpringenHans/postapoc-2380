@@ -11,4 +11,4 @@ b_paris_ON = temple
 
 # Misc
 culture = iroquois
-religion = united_church
+religion = high_church

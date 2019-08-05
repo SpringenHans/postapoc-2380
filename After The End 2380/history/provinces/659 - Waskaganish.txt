@@ -1,0 +1,13 @@
+# c_waskaganish
+
+# County Title
+title = c_waskaganish
+
+# Settlements
+max_settlements = 3
+b_waskaganish_QC = tribal
+
+# Misc
+culture = ojicree
+religion = midewiwin
+terrain = marsh

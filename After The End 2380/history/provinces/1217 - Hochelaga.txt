@@ -1,0 +1,25 @@
+# 1217 - Hochelaga
+
+# County Title
+title = c_hochelaga
+
+# Settlements
+max_settlements = 7
+b_montreal_QC = castle
+b_anjou_QC = castle
+b_st_laurent_QC = temple
+b_dorval_QC = city
+b_beaconsfield_QC = temple
+
+# Misc
+culture = quebecois
+religion = ursuline
+
+# History
+1829.7.1 = {
+	build_wonder = wonder_cathedral_notre_dame
+	set_wonder_stage = 2
+	build_wonder_upgrade = upgrade_grand_basilica
+	build_wonder_upgrade = upgrade_stained_glass_window
+	build_wonder_upgrade = upgrade_bells_golden
+}

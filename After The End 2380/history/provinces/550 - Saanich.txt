@@ -13,6 +13,6 @@ b_vesuvius_BC = temple
 
 # Misc
 culture = canuck
-religion = gaian #gaian
+religion = gaian
 
 #History

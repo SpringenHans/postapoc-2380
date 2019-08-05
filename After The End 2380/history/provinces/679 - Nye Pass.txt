@@ -8,6 +8,6 @@ b_amargosa_valley_CA = tribal
 
 # Misc
 culture = paiute
-religion = atomicist
+religion = cetic
 
 #History

@@ -10,5 +10,5 @@ b_greeley_CO = tribal
 
 # Misc
 culture = coloradan
-religion = rust_cultist
+religion = revelationist
 terrain = steppe

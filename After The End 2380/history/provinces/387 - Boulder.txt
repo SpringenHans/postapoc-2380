@@ -11,4 +11,4 @@ b_longmont_CO = temple
 
 # Misc
 culture = coloradan
-religion = rust_cultist
+religion = neognostic

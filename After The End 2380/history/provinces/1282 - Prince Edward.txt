@@ -9,4 +9,4 @@ b_picton_ON = castle
 
 # Misc
 culture = ontarian
-religion = united_church
+religion = high_church

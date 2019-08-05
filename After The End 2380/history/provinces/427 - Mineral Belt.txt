@@ -10,4 +10,4 @@ b_aspen_CO = temple
 
 # Misc
 culture = coloradan
-religion = sedevacantist
+religion = neognostic

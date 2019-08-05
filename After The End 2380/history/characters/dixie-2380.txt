@@ -451,7 +451,28 @@
 }
 3861024={
 	name="Jim"
-	dynasty=2010014
+	dynasty=2010014 #Walker
 	culture=dixie
 	religion=evangelical
+	trait=giant
+	trait=slow
+	trait=wroth
+	trait=cruel
+	trait=greedy
+	2340.1.1={birth=yes}
+}
+3861025={
+	name="Willie"
+	dynasty=1783044
+	culture=tuskegean
+	religion=revelationist
+	trait=just
+	trait=brave
+	trait=duelist
+	trait=diligent
+	trait=wroth
+	2355.1.1={birth=yes}
+}
+3861026={
+	name=
 }

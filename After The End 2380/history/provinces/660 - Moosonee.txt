@@ -1,0 +1,13 @@
+# c_moosonee
+
+# County Title
+title = c_moosonee
+
+# Settlements
+max_settlements = 3
+b_moosonee_ON = tribal
+
+# Misc
+culture = ojicree
+religion = midewiwin
+terrain = marsh

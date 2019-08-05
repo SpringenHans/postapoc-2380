@@ -1,0 +1,13 @@
+# 575 - Piapot
+
+# County Title
+title = c_piapot
+
+# Settlements
+max_settlements = 3
+b_swift_current_SK = tribal
+
+# Misc
+culture = blackfoot
+religion = peyotist
+terrain = steppe

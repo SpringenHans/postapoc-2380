@@ -12,4 +12,4 @@ b_loyalist_ON = temple
 
 # Misc
 culture = ontarian
-religion = united_church
+religion = high_church

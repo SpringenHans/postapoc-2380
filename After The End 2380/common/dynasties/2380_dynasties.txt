@@ -16,6 +16,8 @@
 2787000 = { name="Greene" culture=dixie }
 2787001 = { name="Perdue" culture=southron }
 2787002 = { name="Hathorne" culture=southron }
+2787003 = { name="Hoitoider" culture=southron }
+2787004 = { name="Copperhead" culture=southron }
 
 2795000 = { name="Bertrand" culture=cajun }
 2795001 = { name="La Bouff" culture=cajun }

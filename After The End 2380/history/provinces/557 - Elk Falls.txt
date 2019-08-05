@@ -12,7 +12,7 @@ b_campbell_river_BC = castle
 
 
 # Misc
-culture = canuck
-religion = gaian
+culture = haida
+religion = raven_tales
 
 #History

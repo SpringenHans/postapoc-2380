@@ -2369,6 +2369,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
+		intermarry = smithsonian
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -2415,6 +2416,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
+		intermarry = smithsonian
 		
 		intermarry = consumerist
 		intermarry = aphite
@@ -2463,6 +2465,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
+		intermarry = smithsonian
 		
 		intermarry = consumerist
 		intermarry = atomicist
@@ -2505,6 +2508,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
+		intermarry = smithsonian
 		
 		intermarry = consumerist
 		intermarry = atomicist
@@ -2537,6 +2541,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
+		intermarry = smithsonian
 		
 		intermarry = consumerist
 		intermarry = atomicist
@@ -3006,6 +3011,76 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		intermarry = celtic_pagan_reformed
+	}
+	
+	ufologist_reformed = { 
+		graphical_culture = westerngfx
+
+		icon = 53
+		heresy_icon = 54
+		
+		color = { 0.4 1.0 0.4 }
+
+		high_god_name = GOD_THE_ANCIENT_ONES
+
+		god_names = {
+			GOD_XENU GOD_RAEL THE_GREYS THE_NORDICS GOD_THE_ANCIENT_ONES 
+		}
+		evil_god_names = {
+			THE_FEDS THE_DOUBTING_ONE THE_SKEPTICS THE_REPTILIANS SHADOW_PEOPLE
+		}
+		
+		crusade_name = INVASION
+		scripture_name = THE_BLUE_BOOK
+		priest_title = BELIEVER
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		allow_in_ruler_designer = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 2
+		intermarry = ufologist
+		intermarry = atomicist
+		intermarry = aphite
+	}
+
+	ufologist = { 
+		graphical_culture = norsegfx
+
+		icon = 30
+		heresy_icon = 31
+		
+		color = { 0.2 0.8 0.2 }
+		
+		high_god_name = GOD_THE_ANCIENT_ONES
+
+		god_names = {
+			GOD_XENU GOD_RAEL THE_GREYS THE_NORDICS GOD_THE_ANCIENT_ONES 
+		}
+		evil_god_names = {
+			THE_FEDS THE_DOUBTING_ONE THE_SKEPTICS THE_REPTILIANS SHADOW_PEOPLE
+		}
+		crusade_name = INVASION
+		scripture_name = THE_SIGHTINGS
+		priest_title = BELIEVER
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		reformed = ufologist_reformed
+		
+		defensive_attrition = yes
+
+		dislike_tribal_organization = yes
+		
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 2
+		intermarry = ufologist_reformed
+		intermarry = atomicist
+		intermarry = aphite
 	}
 }
 
